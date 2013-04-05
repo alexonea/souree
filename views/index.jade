@@ -1,5 +1,13 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	.navbar.navbar-fixed-top
+		.navbar-inner
+			.navbar-container
+				a(class='brand', href='/') Souree
+				ul.nav
+	.content
+		.page-container
+			#page
+				h1.centre Title
+				canvas
