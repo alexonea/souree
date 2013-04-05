@@ -1,4 +1,4 @@
 souree
 ======
 
-Music sharing and playback over network.
+Online music notation editing tool with vexflow
