@@ -1,4 +1,4 @@
 souree
 ======
 
-Online music notation editing tool with vexflow
+Online music notation editing tool
