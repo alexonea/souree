@@ -23,13 +23,13 @@
 }
 
 .treble {
-	content: url('../images/treble_clef.svg');
+	content: url('/images/treble_clef.svg');
 	height: 80px;
 	width: 27px;
 }
 
 .bass {
-	content: url('../images/bass_clef.svg');
+	content: url('/images/bass_clef.svg');
 	height: 60px;
 	width: 30px;
 	margin-top: 7px;
