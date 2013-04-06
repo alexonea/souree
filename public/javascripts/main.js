@@ -1,11 +1,33 @@
-var canvas = document.querySelector('canvas');
-var renderer = new Vex.Flow.Renderer(canvas, Vex.Flow.Renderer.Backends.CANVAS);
-var ctx = renderer.getContext();
-var stave = new Vex.Flow.Stave(10, 0, 970);
+var clef = document.querySelector('#clef');
+var title = document.querySelector('.title');
 
 var onPageLoad = function () {
-	canvas.width = 1000;
-	stave.addClef('treble').setContext(ctx).draw();
+	// Init
 }
 
+/* Key Events Handles */
+
+var saveTitleUpdate = function () {
+	return false;
+}
+
+var checkIfDeletable = function() {
+	return (title.textContent.length > 0);
+}
+
+var titleKeyEventHandle = function (e) {
+	switch (e.keyCode) {
+		case 13:
+			return saveTitleUpdate();
+		case 8:
+			return checkIfDeletable();
+		default:
+			return true;
+	}
+	return false;
+}
+
+/* Click handles */
+
 window.onload = onPageLoad;
+title.onkeydown = titleKeyEventHandle;

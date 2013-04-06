@@ -1,0 +1,47 @@
+<svg width="148" height="166" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>Bass Clef</title>
+ <defs>
+  <linearGradient gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3013-7" id="linearGradient3776" y2="490.82504" x2="881.5011" y1="490.82504" x1="598.60864"/>
+  <linearGradient id="linearGradient3013-7">
+   <stop stop-color="#00000000" stop-opacity="0.82639" offset="0" id="stop3015-9"/>
+   <stop stop-color="#00000000" offset="1" id="stop3017-0"/>
+  </linearGradient>
+  <linearGradient gradientTransform="translate(-368.00764,35.356037)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3013-7" id="linearGradient3793" y2="490.82504" x2="881.5011" y1="490.82504" x1="598.60864"/>
+  <linearGradient xlink:href="#linearGradient3013-7" id="linearGradient3770" y2="-0.14211" x2="0.89411" y1="0.95101" x1="0.06128"/>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0"/>
+  </pattern>
+ </defs>
+ <metadata id="metadata3038">image/svg+xmlBass ClefJaschon</metadata>
+ <g>
+  <title>Layer 1</title>
+  <defs>
+   <linearGradient x1="598.60864" y1="490.82504" x2="881.5011" y2="490.82504" id="svg_21" xlink:href="#svg_17" gradientUnits="userSpaceOnUse"/>
+   <linearGradient id="svg_17">
+    <stop id="svg_20" offset="0" stop-opacity="0.82639" stop-color="#00000000"/>
+    <stop id="svg_19" offset="1" stop-color="#00000000"/>
+   </linearGradient>
+   <linearGradient x1="598.60864" y1="490.82504" x2="881.5011" y2="490.82504" id="svg_18" xlink:href="#svg_17" gradientUnits="userSpaceOnUse" gradientTransform="translate(-368.00764,35.356037)"/>
+   <linearGradient x1="0.06128" y1="0.95101" x2="0.89411" y2="-0.14211" id="svg_15" xlink:href="#svg_17"/>
+   <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+    <image height="100" width="100" y="0" x="0"/>
+   </pattern>
+  </defs>
+  <metadata id="svg_16">image/svg+xmlBass ClefJaschon</metadata>
+  <defs>
+   <linearGradient gradientUnits="userSpaceOnUse" xlink:href="#svg_24" id="svg_28" y2="490.82504" x2="881.5011" y1="490.82504" x1="598.60864"/>
+   <linearGradient id="svg_24">
+    <stop stop-color="#00000000" stop-opacity="0.826389" offset="0" id="svg_27"/>
+    <stop stop-color="#00000000" offset="1" id="svg_26"/>
+   </linearGradient>
+   <linearGradient gradientTransform="translate(-368.00764,35.356037)" gradientUnits="userSpaceOnUse" xlink:href="#svg_24" id="svg_25" y2="490.82504" x2="881.5011" y1="490.82504" x1="598.60864"/>
+   <linearGradient xlink:href="#svg_24" id="svg_22" y2="-0.142112" x2="0.894112" y1="0.951007" x1="0.061276"/>
+  </defs>
+  <metadata id="svg_23">image/svg+xmlBass ClefJaschon</metadata>
+  <g id="svg_30">
+   <g transform="matrix(0.333333 0 0 0.333333 0 0)" id="svg_13">
+    <path fill="url(#svg_22)" fill-rule="evenodd" stroke="#00000000" id="svg_14" d="m52.313293,174.717529c11.661072,14.71936 32.322876,24.490723 55.843994,24.490723c36.400513,0 65.888916,-23.371826 65.888916,-52.213867c0,-28.841919 -29.488403,-52.213745 -65.888916,-52.213745c-20.313721,4.152222 -28.593323,9.00061 -33.143433,-2.909058c17.976501,-54.327271 46.917908,-66.709473 96.546021,-66.709473c65.913696,0 96.968506,59.896729 96.968506,142.966553c-18.225098,190.630371 -205.94635,286.75354 -246.57373,316.192261c5.693848,13.103149 5.395447,12.630737 5.395447,12.009155c189.784973,-86.202637 330.687805,-204.429688 330.687805,-320.74231c0,-92.418579 -58.578979,-175.587769 -187.721313,-172.802979c-77.574829,0 -170.316589,86.202515 -118.003296,171.932739l0,0zm328.101929,-89.882446c0,17.852173 14.470703,32.322876 32.322876,32.322876c17.852173,0 32.322754,-14.470703 32.322754,-32.322876c0,-17.852173 -14.470581,-32.322876 -32.322754,-32.322876c-17.852173,0 -32.322876,14.470703 -32.322876,32.322876zm-328.101929,226.633057c0,17.852173 14.470703,32.322876 32.322876,32.322876c17.852173,0 32.322815,-14.470703 32.322815,-32.322876c0,-17.852173 -14.470642,-32.322876 -32.322815,-32.322876c-17.852173,0 -32.322876,14.470703 -32.322876,32.322876z"/>
+   </g>
+  </g>
+ </g>
+</svg>

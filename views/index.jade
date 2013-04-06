@@ -9,5 +9,31 @@ block content
 	.content
 		.page-container
 			#page
-				h1.centre Title
-				canvas
+				div(contenteditable).title
+					h1.centre.title Title
+				.music
+					#clef.dropdown-toggle(data-toggle='dropdown')
+						img.treble
+					ul.dropdown-menu.clef-select-menu(role='menu')
+						li
+							img.treble.mini
+							| Treble
+						li
+							img.bass.mini
+							| Bass
+					.line
+						.note
+						.stave
+							.empty
+							.empty
+							.empty
+							.note
+						.stave
+							.empty
+							.empty
+							.note
+						.stave
+							.empty
+							.note
+						.stave
+							.note
