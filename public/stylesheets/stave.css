@@ -7,6 +7,7 @@
 }
 
 #clef {
+	cursor: pointer;
 	height: 80px;
 	width: 27px;
 	margin-top: -20px;
@@ -14,7 +15,7 @@
 }
 
 #clef:hover {
-	background: #f0f0f0;
+	background: #e0e0e0;
 }
 
 .music {
@@ -29,23 +30,19 @@
 
 .bass {
 	content: url('/images/stave/bass_clef.svg');
-	height: 80px;
-	width: 50px;
+	height: 60px;
+	width: 30px;
+	margin-top: 7px;
 }
 
 .mini {
 	width: 15px;
 	height: 40px;
-	padding: 10px;
+	padding: 5px 10px 5px 0;
 }
 
 .line {
 	margin-top: -61px;
-}
-
-.clef-select-menu {
-	position: relative !important;
-	margin-top: 20px !important;
 }
 
 .note {
@@ -72,7 +69,6 @@
 	margin-left: 20px;
 	float: left;
 }
-
 
 .empty:first-child {
 	margin-left: 50px;

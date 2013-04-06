@@ -34,14 +34,14 @@ block content
 					h1.centre.title Title
 				.music
 					#clef.dropdown-toggle(data-toggle='dropdown')
-						img.treble
-					ul.dropdown-menu.clef-select-menu(role='menu')
+						img.bass.current-clef
+					ul.dropdown-menu.clef-select-menu
 						li
-							a 
+							a(href='#').treble-select
 								img.treble.mini
 								b Treble
 						li
-							a
+							a(href='#').bass-select
 								img.bass.mini
 								b Bass
 					.line
@@ -60,3 +60,7 @@ block content
 							.note
 						.stave
 							.note
+	#footer
+		hr
+		.centre
+			p Souree 2013. Designed by Alexandru Onea.
