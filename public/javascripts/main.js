@@ -46,6 +46,7 @@ var selectTreble = function (e) {
 		current_clef.fadeIn(300);
 	});
 	e.preventDefault();
+	document.querySelector('.clef-select-menu').style.display = 'none';
 }
 
 var selectBass = function (e) {
@@ -54,11 +55,16 @@ var selectBass = function (e) {
 		current_clef.fadeIn(300);
 	});
 	e.preventDefault();
+	document.querySelector('.clef-select-menu').style.display = 'none';
 }
 
 $('#clef').click(function() {
-        $(this).next('.dropdown-menu').fadeToggle(200);
-    });
+	$(this).next('.dropdown-menu').fadeToggle(200);
+});
+
+$('#clef').focusout(function () {
+	$(this).next('.dropdown-menu').fadeToggle(200);
+});
 
 window.onload = onPageLoad;
 title.onkeydown = titleKeyEventHandle;
