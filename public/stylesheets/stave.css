@@ -23,7 +23,7 @@
 }
 
 .treble {
-	content: url('/images/treble_clef.svg');
+	content: url('../images/treble_clef.svg');
 	height: 80px;
 	width: 27px;
 }
