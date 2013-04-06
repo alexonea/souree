@@ -4,8 +4,29 @@ block content
 	.navbar.navbar-fixed-top
 		.navbar-inner
 			.navbar-container
-				a(class='brand', href='/') Souree
+				a(class='brand', href='/')
+					span(style='color: red') S
+					span(style='color: green') o
+					span(style='color: blue') u
+					span(style='color: magenta') r
+					span(style='color: orange') e
+					span(style='color: brown') e
 				ul.nav
+					li.dropdown
+						a.dropdown-toggle(href='#', data-toggle='dropdown') Project
+							b.caret
+						ul.dropdown-menu(role='menu')
+							li
+								a Save to file...
+							li
+								a Preview
+					li.dropdown
+						a.dropdown-toggle(href='#', data-toggle='dropdown') Stave
+							b.caret
+						ul.dropdown-menu(role='menu')
+							li
+								a Clef
+
 	.content
 		.page-container
 			#page
@@ -16,11 +37,13 @@ block content
 						img.treble
 					ul.dropdown-menu.clef-select-menu(role='menu')
 						li
-							img.treble.mini
-							| Treble
+							a 
+								img.treble.mini
+								b Treble
 						li
-							img.bass.mini
-							| Bass
+							a
+								img.bass.mini
+								b Bass
 					.line
 						.note
 						.stave
