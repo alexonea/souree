@@ -6,11 +6,21 @@
 	display: block;
 }
 
+.stave:first-child {
+	border: none;
+	border-bottom: 1px solid #000;
+}
+
+.stave:last-child {
+	border: none;
+	border-top: 1px solid #000;	
+}
+
 #clef {
 	cursor: pointer;
 	height: 80px;
 	width: 27px;
-	margin-top: -20px;
+	margin-top: -10px;
 	margin-left: 5px;
 }
 
@@ -19,26 +29,28 @@
 }
 
 .music {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .treble {
 	content: url('/images/treble_clef.svg');
 	height: 80px;
 	width: 27px;
+	margin-top: 9px;
 }
 
 .bass {
 	content: url('/images/bass_clef.svg');
 	height: 60px;
-	width: 30px;
-	margin-top: 7px;
+	width: 25px;
+	margin-top: 15px;
 }
 
 .mini {
+	margin-top: 0px;
 	width: 15px;
 	height: 40px;
-	padding: 5px 10px 5px 0;
+	padding: 5px 15px 5px 0;
 }
 
 .line {
